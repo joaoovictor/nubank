@@ -376,7 +376,7 @@ class _RootAppState extends State<RootApp> {
                     child: Column(
                       // ignore: prefer_const_literals_to_create_immutables
                       children: [
-                         const Icon(FeatherIcons.barChart)
+                         const Icon(FontAwesomeIcons.galacticSenate)
                       ],
                     ),
                   ),
@@ -385,7 +385,7 @@ class _RootAppState extends State<RootApp> {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        const Text("Investimentos", 
+                        const Text("Galáxia", 
                           style: TextStyle(
                           color: black,
                           fontSize: 20,
@@ -632,7 +632,7 @@ class _RootAppState extends State<RootApp> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               mainAxisAlignment: MainAxisAlignment.end,
                               children: [
-                                Text("Portabilidade salário",
+                                Text(imgs[index]['txt1'],
                                 style: GoogleFonts.lato(
                                   textStyle: const TextStyle(
                                     fontSize: 14,
@@ -641,7 +641,7 @@ class _RootAppState extends State<RootApp> {
                                 ),
                                 ),
           
-                                Text("Sua liberdade financeira começa com você escolhend...",
+                                Text(imgs[index]['txt2'],
                                 style: GoogleFonts.lato(
                                   textStyle: TextStyle(
                                     color: black.withOpacity(0.7),
